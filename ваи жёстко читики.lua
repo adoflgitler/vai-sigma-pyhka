@@ -17,7 +17,7 @@ spawn(function()
 end)
 
 wait(51)
-
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10.375031471252441, 23.6176815032959, 830.199462890625)
 local function spawnTower(towerName, cframe)
     SpawnTower:InvokeServer(towerName, cframe)
 end
